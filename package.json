@@ -1,6 +1,6 @@
 {
   "name": "face-recognition-app",
-  "homepage": "https://victorloma.github.io/face-recognition-app",
+  "homepage": "https://victorloma.github.io/face-recognition-app/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -20,7 +20,7 @@
    "predeploy": "npm run build",
    "deploy": "gh-pages -d build",
     "start": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts build",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
